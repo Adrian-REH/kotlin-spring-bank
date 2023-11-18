@@ -11,7 +11,6 @@ class KotlinSpringApplication{
 	@Bean
 	fun restTemplate(builder: RestTemplateBuilder): RestTemplate = builder.build()
 }
-
 fun main(args: Array<String>) {
 	runApplication<KotlinSpringApplication>(*args)
 }
